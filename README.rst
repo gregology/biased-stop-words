@@ -18,7 +18,28 @@ Available genres
 Installation
 ------------
 
-by cloning ``biased-stop-words``'s `git repo <https://github.com/gregology/python-biased-stop-words>`_ ::
+``biased-stop-words`` is available on PyPI
+
+http://pypi.python.org/pypi/biased-stop-words
+
+So easily install it by ``pip``
+::
+
+    $ pip install biased-stop-words
+
+Or by ``easy_install``
+::
+
+    $ easy_install biased-stop-words
+
+Another way is by cloning ``biased-stop-words``'s `git repo <https://github.com/gregology/python-biased-stop-words>`_ ::
+
+    $ git clone --recursive git://github.com/gregology/python-biased-stop-words.git
+
+Then install it by running:
+::
+
+    $ python setup.py install
 
 Basic usage
 -----------
