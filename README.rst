@@ -24,6 +24,8 @@ Available genres
 
 * English Gendered Terms
 
+More will be avaliable soon. Contribute at https://github.com/gregology/biased-stop-words
+
 Installation
 ------------
 
