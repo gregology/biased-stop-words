@@ -2,6 +2,15 @@
 Python Biased Stop Words
 ========================
 
+.. image:: https://badge.fury.io/py/biased-stop-words.svg
+    :target: https://badge.fury.io/py/biased-stop-words
+
+.. image:: http://img.shields.io/badge/license-MIT-yellow.svg?style=flat
+    :target: https://github.com/gregology/python-biased-stop-words/blob/master/LICENSE
+
+.. image:: https://img.shields.io/badge/contact-Gregology-blue.svg?style=flat
+    :target: http://gregology.net/contact/
+
 .. contents:: Table of contents
 
 Overview
