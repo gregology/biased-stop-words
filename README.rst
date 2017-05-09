@@ -18,7 +18,7 @@ Available genres
 Installation
 ------------
 
-by cloning ``stop-words``'s `git repo <https://github.com/gregology/python-biased-stop-words>`_ ::
+by cloning ``biased-stop-words``'s `git repo <https://github.com/gregology/python-biased-stop-words>`_ ::
 
 Basic usage
 -----------
