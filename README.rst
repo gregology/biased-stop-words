@@ -11,7 +11,7 @@ Python Biased Stop Words
 .. image:: https://img.shields.io/badge/contact-Gregology-blue.svg?style=flat
     :target: http://gregology.net/contact/
 
-.. contents:: Table of contents
+.. contents::
 
 Overview
 --------
