@@ -16,7 +16,7 @@ Python Biased Stop Words
 Overview
 --------
 
-Get lists of biased stop words from various genres.
+Lists of biased stop words from various genres.
 Based on http://pypi.python.org/pypi/stop-words
 
 Available genres
