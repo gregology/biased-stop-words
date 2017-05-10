@@ -74,5 +74,4 @@ Basic usage
 Python compatibility
 --------------------
 
-Python-stop-words has been originally developed for Python 2, but has been
-ported and tested for Python 3.
+Developed for Python 2 & 3.
