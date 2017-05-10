@@ -16,17 +16,17 @@ Python Biased Stop Words
 Overview
 --------
 
-Stop words are words which are filtered out before processing of natural language data. Often in text analysis there are non-casual correlations, consider the following:
+Stop words are words which are filtered out before processing of natural language data. Often in text analysis there are non-casual correlations, consider the following documents:
 
- - ``He is an astronaut, he is on Venus``
- - ``He is an accountant, he is on Earth``
- - ``She is an astronaut, she is on Mars``
+ - He is an astronaut, he is on Venus
+ - He is an accountant, he is on Earth
+ - She is an astronaut, she is on Mars
 
-Processing these sentences into two topics will result in gendered clustering. If we remove the gendered terms:
+Processing these documents into two topics will result in gendered clustering. If we remove the gendered terms:
 
- - ``is an astronaut, is on Venus``
- - ``is an accountant, is on Earth``
- - ``is an astronaut, is on Mars``
+ - is an astronaut, is on Venus
+ - is an accountant, is on Earth
+ - is an astronaut, is on Mars
 
 Processing will result in job clustering. Both clusterings are valid, however if you are interested in employing an astronaut, you don't want male accountants showing up.
 
