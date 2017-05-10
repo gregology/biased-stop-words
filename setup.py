@@ -13,6 +13,7 @@ setup(
     package_data={
         'biased_stop_words': [
             'biased-stop-words/*.txt',
+            'biased-stop-words/mapping.yaml'
         ]
     },
     classifiers=[

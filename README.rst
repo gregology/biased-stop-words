@@ -16,15 +16,27 @@ Python Biased Stop Words
 Overview
 --------
 
-Lists of biased stop words from various genres.
-Based on http://pypi.python.org/pypi/stop-words
+Stop words are words which are filtered out before processing of natural language data. Often in text analysis there are non-casual correlations, consider the following:
+
+``He is an astronaut, he is on Venus``
+``He is an accountant, he is on Earth``
+``She is an astronaut, she is on Mars``
+
+Processing these sentences into two topics will result in gendered clustering. If we remove the gendered terms:
+
+``is an astronaut, is on Venus``
+``is an accountant, is on Earth``
+``is an astronaut, is on Mars``
+
+Processing will result in job clustering. Both clusterings are valid, however if you are interested in employing an astronaut, you don't want male accountants showing up.
 
 Available genres
 ----------------
 
 * English Gendered Terms
+* US names
 
-More will be avaliable soon. Contribute at https://github.com/gregology/biased-stop-words
+More will be available soon. Contribute at https://github.com/gregology/biased-stop-words
 
 Installation
 ------------
@@ -57,9 +69,7 @@ Basic usage
 ::
 
     from biased_stop_words import get_stop_words
-
-    stop_words = get_stop_words('en-gendered')
-
+    stop_words = get_stop_words('gendered', 'common-us-names')
 
 Python compatibility
 --------------------
