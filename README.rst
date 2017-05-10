@@ -18,15 +18,15 @@ Overview
 
 Stop words are words which are filtered out before processing of natural language data. Often in text analysis there are non-casual correlations, consider the following:
 
-``He is an astronaut, he is on Venus``
-``He is an accountant, he is on Earth``
-``She is an astronaut, she is on Mars``
+ - ``He is an astronaut, he is on Venus``
+ - ``He is an accountant, he is on Earth``
+ - ``She is an astronaut, she is on Mars``
 
 Processing these sentences into two topics will result in gendered clustering. If we remove the gendered terms:
 
-``is an astronaut, is on Venus``
-``is an accountant, is on Earth``
-``is an astronaut, is on Mars``
+ - ``is an astronaut, is on Venus``
+ - ``is an accountant, is on Earth``
+ - ``is an astronaut, is on Mars``
 
 Processing will result in job clustering. Both clusterings are valid, however if you are interested in employing an astronaut, you don't want male accountants showing up.
 
@@ -45,17 +45,17 @@ Installation
 
 http://pypi.python.org/pypi/biased-stop-words
 
-So easily install it by ``pip``
+Install via ``pip``
 ::
 
     $ pip install biased-stop-words
 
-Or by ``easy_install``
+Or via ``easy_install``
 ::
 
     $ easy_install biased-stop-words
 
-Another way is by cloning ``biased-stop-words``'s `git repo <https://github.com/gregology/python-biased-stop-words>`_ ::
+Or by cloning ``biased-stop-words``'s `git repo <https://github.com/gregology/python-biased-stop-words>`_ ::
 
     $ git clone --recursive git://github.com/gregology/python-biased-stop-words.git
 
