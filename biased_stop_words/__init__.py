@@ -1,22 +1,13 @@
 import yaml
 import os
 
-__VERSION__ = (2017, 5, 10, 3)
 CURRENT_DIR = os.path.dirname(os.path.realpath(__file__))
 STOP_WORDS_DIR = os.path.join(CURRENT_DIR, 'biased-stop-words')
 MAPPING_FILE = os.path.join(STOP_WORDS_DIR, 'mapping.yaml')
 MAPPING = yaml.load(open(MAPPING_FILE))
 
-def get_version():
-    """
-    :rtype: basestring
-    """
-    return ".".join(str(v) for v in __VERSION__)
 
 def genres():
-    """
-    :rtype: basestring
-    """
     return ', '.join(MAPPING.keys())
 
 def get_stop_words(*args):
@@ -35,7 +26,7 @@ class BiasedStopWordError(Exception):
 class Genre(object):
     def __init__(self, name):
         if name not in MAPPING.keys():
-            raise BiasedStopWordError('included genre not ' + ', '.join(MAPPING.keys()))
+            raise BiasedStopWordError('included genre not ' + genres())
         self.name = name
 
     def get_words(self):
