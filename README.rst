@@ -45,15 +45,10 @@ Installation
 
 http://pypi.python.org/pypi/biased-stop-words
 
-Install via ``pip``
+Install via ``pip`` **Note: currenlty broken**
 ::
 
     $ pip install biased-stop-words
-
-Or via ``easy_install``
-::
-
-    $ easy_install biased-stop-words
 
 Or by cloning ``biased-stop-words``'s `git repo <https://github.com/gregology/python-biased-stop-words>`_ ::
 
