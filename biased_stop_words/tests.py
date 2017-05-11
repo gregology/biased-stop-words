@@ -5,26 +5,26 @@ import random
 import unittest
 from types import ListType, StringType
 
-from biased_stop_words import BiasedStopWords, BiasedStopWordError, Genre, genres
+from biased_stop_words import BiasedStopWordError, Genre, genres, get_stop_words
 
 
-class TestBiasedStopWords(unittest.TestCase):
+class TestGetStopWords(unittest.TestCase):
 
     def test_get_existing_stop_words(self):
-        actual = BiasedStopWords('gendered').get_words()
+        actual = get_stop_words('gendered')
         self.assertTrue(type(actual) is ListType)
         self.assertTrue(actual)
 
     def test_get_multiple_existing_stop_words(self):
-        actual = BiasedStopWords('gendered', 'us-names').get_words()
+        actual = get_stop_words('gendered', 'us-names')
         self.assertTrue(type(actual) is ListType)
         self.assertTrue(actual)
 
     def test_get_no_supplied_genres(self):
-        self.assertRaises(BiasedStopWordError, BiasedStopWords)
+        self.assertRaises(BiasedStopWordError, get_stop_words)
 
     def test_get_non_existing_genre(self):
-        self.assertRaises(BiasedStopWordError, BiasedStopWords, 'non-existant-genre')
+        self.assertRaises(BiasedStopWordError, get_stop_words, 'non-existant-genre')
 
 
 class TestGenre(unittest.TestCase):

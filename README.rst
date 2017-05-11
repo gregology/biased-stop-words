@@ -71,6 +71,12 @@ Basic usage
     from biased_stop_words import get_stop_words
     stop_words = get_stop_words('gendered', 'common-us-names')
 
+Running Test
+------------
+::
+
+    $ python biased_stop_words/tests.py
+
 Python compatibility
 --------------------
 

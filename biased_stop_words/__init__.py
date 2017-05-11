@@ -1,8 +1,7 @@
 import yaml
 import os
-from itertools import islice
 
-__VERSION__ = (2017, 5, 10, 2)
+__VERSION__ = (2017, 5, 10, 3)
 CURRENT_DIR = os.path.dirname(os.path.realpath(__file__))
 STOP_WORDS_DIR = os.path.join(CURRENT_DIR, 'biased-stop-words')
 MAPPING_FILE = os.path.join(STOP_WORDS_DIR, 'mapping.yaml')
