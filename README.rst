@@ -30,7 +30,7 @@ Processing these documents into two topics will result in gendered clustering. I
 - is an accountant, is on Earth
 - is an astronaut, is on Mars
 
-Processing will result in job clustering. Both clusterings are valid, however if you are interested in employing an astronaut, you don't want male accountants showing up. There are many other examples of non casual relationships occurring in natural language; religion, ethnicity, and age to name a few.
+Processing will result in job clustering. Both clusterings are valid, however if you are interested in employing an astronaut, you don't want male accountants showing up. There are many other examples of non casual relationships occurring in natural language; religion, ethnicity, and age to name but a few.
 
 Available genres
 ----------------
