@@ -37,6 +37,7 @@ Available genres
 
 * English Gendered Terms
 * US names
+* Religion (Partial)
 
 More will be available soon. Contribute at https://github.com/gregology/biased-stop-words
 
@@ -68,8 +69,12 @@ Basic usage
 -----------
 ::
 
-    from biased_stop_words import get_stop_words
-    stop_words = get_stop_words('gendered', 'common-us-names')
+    >>> from biased_stop_words import genres, get_stop_words
+    >>> genres()
+    'religions, gendered, us-common-names, us-names, us-male-names, us-female-names, gendered-nouns'
+    >>> get_stop_words('gendered', 'us-common-names')
+    [u'trenton', u'augustine', u'khalil', u'aiden', u'elisabeth', u'andre', u'khanum', u'elva', u'fran...
+
 
 Running Test
 ------------
