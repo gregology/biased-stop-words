@@ -2,10 +2,10 @@ from setuptools import setup, find_packages
 
 setup(
     name='biased-stop-words',
-    version='2017.5.12.1',
+    version='2017.5.13.2',
     description='Generates biased stop word lists for various genres',
     long_description=open('README.rst').read(),
-    url='https://github.com/gregology/python-biased-stop-words',
+    url='https://github.com/gregology/biased-stop-words',
     author='Greg Clarke',
     author_email='greg@gho.st',
     license='MIT',
@@ -13,22 +13,16 @@ setup(
     'Development Status :: 4 - Beta',
     'Intended Audience :: Developers',
     'Topic :: Software Development :: Build Tools',
-     'License :: OSI Approved :: MIT License',
-    'Programming Language :: Python :: 2',
-    'Programming Language :: Python :: 2.6',
-    'Programming Language :: Python :: 2.7',
-    'Programming Language :: Python :: 3',
-    'Programming Language :: Python :: 3.2',
-    'Programming Language :: Python :: 3.3',
-    'Programming Language :: Python :: 3.4',
+    'License :: OSI Approved :: MIT License',
+    'Programming Language :: Python'
     ],
-    keywords='stopwords data bias',
+    keywords='stop words machine learning ml bias biased natural language processing nlp',
     packages=find_packages(),
     install_requires=['pyyaml'],
     package_data={
         'biased_stop_words': [
-            'biased-stop-words/*.txt',
-            'biased-stop-words/mapping.yaml'
+            'biased-words/*.txt',
+            'biased-words/stop-word-mapping.yaml'
         ]
     }
 )

@@ -20,11 +20,18 @@ class TestGetStopWords(unittest.TestCase):
         self.assertTrue(type(actual) is ListType)
         self.assertTrue(actual)
 
+    def test_limited_list(self):
+        actual = get_stop_words('us-common-names')
+        self.assertTrue(len(actual) <= 2000)
+
     def test_get_no_supplied_genres(self):
         self.assertRaises(BiasedStopWordError, get_stop_words)
 
     def test_get_non_existing_genre(self):
         self.assertRaises(BiasedStopWordError, get_stop_words, 'non-existant-genre')
+
+    def test_get_existing_and_non_existing_genre(self):
+        self.assertRaises(BiasedStopWordError, get_stop_words, 'gendered', 'non-existant-genre')
 
 
 class TestGenre(unittest.TestCase):
