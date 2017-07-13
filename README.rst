@@ -58,7 +58,7 @@ Or via ``easy_install``
 
     $ easy_install biased-stop-words
 
-Or directly from ``biased-stop-words``'s `git repo <https://github.com/gregology/biased-stop-words>`
+Or directly from ``biased-stop-words``'s `git repo <https://github.com/gregology/biased-words>`
 ::
 
     $ git clone --recursive git://github.com/gregology/biased-stop-words.git
