@@ -39,7 +39,7 @@ Available genres
 * US Names
 * Religious Terms (Partial)
 
-More will be available soon. Contribute at https://github.com/gregology/biased-stop-words
+More will be available soon. Contribute at https://github.com/gregology/biased-words
 
 Installation
 ------------
