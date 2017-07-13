@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='biased-stop-words',
-    version='2017.5.13.4',
+    version='2017.7.13.0',
     description='Generates biased stop word lists for various genres',
     long_description=open('README.rst').read(),
     url='https://github.com/gregology/biased-stop-words',
