@@ -16,7 +16,7 @@ Python Biased Stop Words
 Overview
 --------
 
-*Bias are bugs*
+*Biases are bugs*
 
 Stop words are words which are filtered out before processing of natural language data. Often in text analysis there are non-casual correlations, consider the following documents:
 
