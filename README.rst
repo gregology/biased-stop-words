@@ -41,6 +41,16 @@ Available genres
 
 More will be available soon. Contribute at https://github.com/gregology/biased-words
 
+Interactive Notebook
+--------------------
+
+Explore this package in an  `Interactive Notebook <https://mybinder.org/v2/gh/gregology/biased-stop-words/jupyter>`__
+
+.. image:: https://user-images.githubusercontent.com/1595448/48975588-00661d00-f042-11e8-97c6-ded19ad45f51.png
+         :width: 80%
+
+Hosted by `binder <https://mybinder.org>`__
+
 Installation
 ------------
 
