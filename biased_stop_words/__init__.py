@@ -4,7 +4,9 @@ import os
 CURRENT_DIR = os.path.dirname(os.path.realpath(__file__))
 STOP_WORDS_DIR = os.path.join(CURRENT_DIR, 'biased-words')
 MAPPING_FILE = os.path.join(STOP_WORDS_DIR, 'stop-word-mapping.yaml')
-MAPPING = yaml.load(open(MAPPING_FILE))
+
+with open(MAPPING_FILE) as f:
+    MAPPING = yaml.load(f, Loader=yaml.SafeLoader)
 
 
 def genres():
